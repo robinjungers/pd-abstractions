@@ -1,0 +1,18 @@
+#N canvas 931 194 626 454 10;
+#X obj 247 139 stripnote;
+#X obj 247 110 notein;
+#X obj 247 253 pack f f;
+#X obj 247 200 % 16;
+#X obj 298 199 / 16;
+#X obj 298 224 int;
+#X obj 247 279 outlet;
+#X obj 247 167 t f f;
+#X connect 0 0 7 0;
+#X connect 1 0 0 0;
+#X connect 1 1 0 1;
+#X connect 2 0 6 0;
+#X connect 3 0 2 0;
+#X connect 4 0 5 0;
+#X connect 5 0 2 1;
+#X connect 7 0 3 0;
+#X connect 7 1 4 0;
