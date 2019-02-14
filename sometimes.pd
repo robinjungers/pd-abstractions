@@ -5,7 +5,7 @@
 #X obj 132 79 inlet;
 #X obj 78 200 outlet;
 #X obj 78 177 moses;
-#X obj 78 151 randomF 1;
+#X obj 78 151 rand 100;
 #X connect 0 0 1 0;
 #X connect 1 0 5 1;
 #X connect 2 0 6 0;
